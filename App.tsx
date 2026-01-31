@@ -7,7 +7,7 @@ import ModernTheme from './components/ModernTheme';
 import TerminalTheme from './components/TerminalTheme';
 
 const App: React.FC = () => {
-  const [theme, setTheme] = useState<ThemeType>(ThemeType.MODERN);
+  const [theme, setTheme] = useState<ThemeType>(ThemeType.CLASSIC);
 
   const renderTheme = () => {
     switch (theme) {
