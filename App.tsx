@@ -16,8 +16,9 @@ const App: React.FC = () => {
       case ThemeType.TERMINAL:
         return <TerminalTheme data={resumeData} />;
       case ThemeType.MODERN:
-      default:
         return <ModernTheme data={resumeData} />;
+      default:
+        return <ClassicTheme data={resumeData} />;
     }
   };
 
