@@ -22,7 +22,7 @@ export const resumeData: Resume = {
     },
     {
       category: "Mobile & Tools",
-      items: ["Xamarin (iOS & Android)", "MVVM", "Visual Studio 2022", "Git", "Continua CI", "Vault", "FinalBuilder"]
+      items: ["Xamarin (iOS & Android)", "MVVM", "Visual Studio 2022", "Git", "Continua CI", "Source Gear Vault", "FinalBuilder"]
     }
   ],
   experience: [
